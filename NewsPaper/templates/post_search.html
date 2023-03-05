@@ -1,0 +1,101 @@
+{% extends 'flatpages/default.html' %}
+{% load news_filters %}
+
+{% block title %} Поиск: {% endblock title %}
+
+{% block content %}
+
+<form method="GET">
+<!--     {{ filter.form.as_p}} -->
+<table>
+    <thead>
+        <th>
+            Дата позже чем:
+        </th>
+        <th>
+            Заголовок содержит:
+        </th>
+        <th>
+            Имя автора содержит:
+        </th>
+    </thead>
+    {%  for fi in filter.form %}
+
+        <td>
+            {{ fi }}
+        </td>
+
+    {% endfor %}
+</table>
+
+
+ <!--        <div>
+           {{ filter.form.postDatetime.errors }}
+           <label for="{{ filter.form.postDatetime.id_for_label }}">Дата позже чем:</label>
+           {{ filter.form.postDatetime }}
+        </div>
+        <div>
+           {{ filter.form.head.errors }}
+           <label for="{{ filter.form.head.id_for_label }}">Заголовок содержит:</label>
+           {{ filter.form.head }}
+        </div>
+        <div>
+           {{ filter.form.postAuthor__authorName__username.errors }}
+           <label for="{{ filter.form.postAuthor__authorName__username.id_for_label }}">Имя автора содержит:</label>
+           {{ filter.form.postAuthor__authorName__username }}
+        </div>   -->
+
+        <input type="submit" value="Найти">
+</form>
+
+<table>
+    <thead>
+        <th>
+            Заголовок
+        </th>
+        <th>
+            Дата публикации
+        </th>
+        <th>
+            Автор
+        </th>
+    </thead>
+    {% for new in filter.qs %}
+    <tr>
+        <td>
+             <a href="{% url 'post_detail' new.id %}">{{ new.head|censor|truncatewords:12 }}</a>
+        </td>
+        <td>
+            {{ new.postDatetime|date:'d M Y' }}
+        </td>
+        <td>
+            {{ new.postAuthor.authorName.username }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+<!--
+<a href="{% url 'post_add' %}">Добавить новый пост</a> <br>
+
+{% if is_paginated %}
+
+    {% if page_obj.has_previous %}
+        <a href="?page=1">First</a>
+        <a href="?page={{ page_obj.previous_page_number }}"><<<</a>
+    {% endif %}
+
+    {% for num in page_obj.paginator.page_range %}
+        {% if page_obj.number == num %}
+            <a>{{ num }}</a>
+        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+            <a href="?page={{ num }}">{{ num }}</a>
+        {% endif %}
+    {% endfor %}
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">>>></a>
+        <a href="?page={{ page_obj.paginator.num_pages }}">Last</a>
+    {% endif %}
+
+{% endif %} -->
+{% endblock content %}

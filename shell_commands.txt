@@ -1,0 +1,76 @@
+from news.models import *
+
+usr_1 =  User.objects.create_user(username = 'man_1', first_name = 'dow')
+usr_2 =  User.objects.create_user(username = 'girl_1', first_name = 'Elly')
+Author.objects.create(authorName=usr_1)
+Author.objects.create(authorName=usr_2)
+Category.objects.create(name='devel')
+Category.objects.create(name='sales')
+Category.objects.create(name='prod')
+Category.objects.create(name='hr')
+Post.objects.create(postAuthor=Author.objects.get(authorName=User.objects.get(username='man_1')), postType='NEWS', head='first_news', postText='the content of first news')
+Post.objects.create(postAuthor=Author.objects.get(authorName=User.objects.get(username='man_1')), postType='ATRC', head='first_article', postText='the content of first article')
+Post.objects.create(postAuthor=Author.objects.get(authorName=User.objects.get(username='girl_1')), postType='ATRC', head='second_article', postText='the content of second article')
+prim_key_1 = Post.objects.get(pk=1)
+prim_key_2 = Post.objects.get(pk=2)
+prim_key_3 = Post.objects.get(pk=3)
+
+category_1 = Category.objects.get(name='devel')
+category_2 = Category.objects.get(name='sales')
+category_3 = Category.objects.get(name='prod')
+category_4 = Category.objects.get(name='hr')
+prim_key_1.category.add(category_1)
+prim_key_2.category.add(category_1, category_2)
+prim_key_3.category.add(category_2, category_3)
+prim_key_1.category.add(category_4)
+Comment.objects.create(commentUser=User.objects.get(username='man_1'), commentPost=Post.objects.get(pk=1), commentTxt='commnet to post 1')
+Comment.objects.create(commentUser=User.objects.get(username='girl_1'), commentPost=Post.objects.get(pk=1), commentTxt="girl's commnet to post 1")
+Comment.objects.create(commentUser=User.objects.get(username='girl_1'), commentPost=Post.objects.get(pk=1), commentTxt="girl's commnet to post 2")
+Comment.objects.create(commentUser=User.objects.get(username='girl_1'), commentPost=Post.objects.get(pk=2), commentTxt="girl's commnet to post 2")
+Comment.objects.create(commentUser=User.objects.get(username='girl_1'), commentPost=Post.objects.get(pk=3), commentTxt="girl's commnet to post 3")
+Comment.objects.create(commentUser=User.objects.get(username='man_1'), commentPost=Post.objects.get(pk=3), commentTxt="man's commnent to post 3")
+Post.objects.get(pk=1).like()
+Post.objects.get(pk=1).like()
+Post.objects.get(pk=1).like()
+Post.objects.get(pk=2).like()
+Post.objects.get(pk=2).like()
+Post.objects.get(pk=2).like()
+Post.objects.get(pk=2).dislike()
+Post.objects.get(pk=3).dislike()
+Comment.objects.get(pk=1).like()
+Comment.objects.get(pk=1).like()
+Comment.objects.get(pk=1).like()
+Comment.objects.get(pk=2).dislike()
+Comment.objects.get(pk=3).dislike()
+Comment.objects.get(pk=3).like()
+q=Author.objects.get(authorName=User.objects.get(username='man_1'))
+q.update_rating()
+q.authorRate
+a=Author.objects.get(authorName=User.objects.get(username='girl_1'))
+a.update_rating()
+a.authorRate
+bestUser = Author.objects.all().order_by('-authorRate').values('authorName__username', 'authorRate')[0]
+bestUser
+print(bestUser)
+bestUser.get('authorName__username')
+bestUser.get('authorRate')
+bestPost = Post.objects.all().order_by('-postRate').values('postDatetime', 'postAuthor__authorName__username', 'postRate', 'head')[0]
+bestPost.get('postDatetime').strftime("%Y-%m-%d %H:%M")
+bestPost.get('postAuthor__authorName__username')
+bestPost.get('postRate')
+bestPost.get('head')
+bestP=bestPost = Post.objects.all().order_by('-postRate')[0]
+bestP.preview()
+bestComment = Comment.objects.filter(commentPost = bestP)
+bestComment.values('commentDatetime', 'commentUser', 'commentRate', 'commentTxt')
+
+
+
+
+
+
+
+
+
+
+

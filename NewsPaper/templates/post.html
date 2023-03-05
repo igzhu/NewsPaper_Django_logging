@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+{% load news_filters %}
+
+{% block title %}
+Post:
+{% endblock title %}
+
+{% block content %}
+    <h5> Кратко: {{ post.head|censor }} </h5>
+    <hr>
+    <h5> Дата: {{ post.postDatetime|date:'d-M-Y H:i' }} </h5>
+    <hr>
+    <h5> Полный текст: {{ post.postText|censor:'<...>' }} </h5>
+{% endblock content %}

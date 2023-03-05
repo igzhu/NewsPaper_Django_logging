@@ -1,0 +1,43 @@
+{% extends 'flatpages/default.html' %}
+{% block title %} Create post {% endblock title %}
+
+<!-- {% block logout %}
+    {% if request.user.is_authenticated %}
+        <<li class="nav-item"><a class="nav-link" href="/account/logout/">Выйти</a></li>
+    {% endif %}
+{% endblock logout%} -->
+
+{% block content %}
+    <h2>Написать новость или статью</h2>
+    <form method="POST">
+         {% csrf_token %}
+         {{ form.as_p }}
+
+   <!--     <div>
+           {{ form.postAuthor.errors }}
+           <label for="{{ form.postAuthor.id_for_label }}">Writer:</label>
+           {{ form.postAuthor }}
+        </div>
+  <div>
+           {{ form.postType.errors }}
+           <label for="{{ form.postType.id_for_label }}">Тип:</label>
+           {{ form.postType }}
+        </div>
+        <div>
+           {{ form.category.errors }}
+           <label for="{{ form.category.id_for_label }}">Категория:</label>
+           {{ form.category }}
+        </div>
+        <div>
+           {{ form.head.errors }}
+           <label for="{{ form.head.id_for_label }}">Заголовок:</label>
+           {{ form.head }}
+        </div>
+        <div>
+           {{ form.postText.errors }}
+           <label for="{{ form.postText.id_for_label }}">Текст:</label>
+           {{ form.postText }}
+        </div>    -->
+        <input type="submit" value="Добавить">
+    </form>
+{% endblock content %}

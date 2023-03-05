@@ -1,0 +1,50 @@
+{% extends 'flatpages/default.html' %}
+{% load news_filters %}
+{% block title %} Удалить пост {% endblock title %}
+<!--{% block logout %}
+    <button> <a href="account/logout/">Выйти</a> </button>
+{% endblock logout%} -->
+{% block content %}
+<h2>Вы действительно хотите удалить этот пост?</h2>
+<table>
+    <thead>
+        <th>
+            автор
+        </th>
+        <th>
+            тип
+        </th>
+        <th>
+            категория
+        </th>
+        <th>
+            заголовок
+        </th>
+        <th>
+            содержание
+        </th>
+    </thead>
+    <tr>
+        <td>
+            {{ post.postAuthor.authorName.username|title  }}
+        </td>
+        <td>
+            {{ post.postType|title }}
+        </td>
+        <td>
+            {{ post.category.name|title }}
+        </td>
+        <td>
+            {{ post.head|censor|truncatewords:12 }}
+        </td>
+        <td>
+            {{ post.postText|censor }}
+        </td>
+    </tr>
+</table>
+<form method="POST">
+    {% csrf_token %}
+    <input type="submit" value="подтвердить">
+</form>
+{% endblock content %}
+

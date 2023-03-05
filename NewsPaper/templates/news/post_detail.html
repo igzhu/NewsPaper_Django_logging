@@ -1,0 +1,43 @@
+{% extends 'flatpages/default.html' %}
+{% load news_filters %}
+{% block title %} Содержание поста{% endblock title %}
+{% block content %}
+<table>
+    <thead>
+        <th>
+            автор
+        </th>
+        <th>
+            тип
+        </th>
+        <th>
+            категория
+        </th>
+        <th>
+            заголовок
+        </th>
+        <th>
+            содержание
+        </th>
+    </thead>
+    <tr>
+        <td>
+            {{ post.postAuthor.authorName.username|title }}
+        </td>
+        <td>
+            {{ post|title }}
+        </td>
+        <td>
+            {% for choice in post.category.all %}
+                {{ choice }}
+            {% endfor %}
+        </td>
+        <td>
+            {{ post.head|censor|truncatewords:12 }}
+        </td>
+        <td>
+            {{ post.postText|censor }}
+        </td>
+    </tr>
+</table>
+{% endblock content %}

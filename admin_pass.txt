@@ -1,0 +1,2 @@
+name: adm
+pass: django_first
