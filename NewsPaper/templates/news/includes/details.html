@@ -1,0 +1,14 @@
+{% load news_filters %}
+<h3>
+    <a href="{% url 'post_detail' post.id %}">
+        {{ post.title|censor }}
+    </a>
+</h3>
+<p>
+    Автоp: {{ post.postAuthor.authorName.username }}
+    Дата: {{ post.postDatetime }}
+    Категории:
+    {% for ctgry in post.category.values %}
+        <a href="{%  url 'category' ctgry.id %}">{{ ctgry.name }}</a>
+    {% endfor %}
+</p>

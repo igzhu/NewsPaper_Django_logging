@@ -56,6 +56,13 @@
                         {% block content %}
                         {{ flatpage.content }}
                         {% endblock content %}
+  <!--                      {% if request.user.is_authenticated %}
+
+                            {% block subscribe %}
+                                <a class="nav-link" href="/accounts/logout/">Подписаться</a>
+                            {% endblock subscribe %}
+
+                        {% endif %}  -->
                     </div>
                 </div>
             </div>

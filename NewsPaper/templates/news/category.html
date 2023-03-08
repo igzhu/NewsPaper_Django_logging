@@ -1,0 +1,21 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+    {% if ctgry.id %}
+        Можно подписаться на категорию: {{ ctgry }}
+    {% else %} Вы подписаны на эту категорию.
+    {% endif %}
+{% endblock title %}
+
+{% block content %}
+{% if ctgry.id %}
+<div>
+    <em>
+        Подписаться на <strong>{{ ctgry }}?</strong>
+    </em>
+    <!--<a href="subscribe/">Да, подписаться!</a>-->
+    <a href="{% url 'subscribe' ctgry.id %}">Да, подписаться!</a>
+</div>
+{% endif %}
+{% include 'news/includes/posts.html' %}
+{% endblock content %}

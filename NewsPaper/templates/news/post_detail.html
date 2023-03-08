@@ -29,7 +29,8 @@
         </td>
         <td>
             {% for choice in post.category.all %}
-                {{ choice }}
+                <!--{{ choice }}-->
+                <a href="{%  url 'category' choice.id %}">{{ choice.name }}</a>
             {% endfor %}
         </td>
         <td>

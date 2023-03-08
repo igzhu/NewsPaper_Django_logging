@@ -3,7 +3,7 @@ from django.contrib.auth.models import Group
 
 from allauth.account.forms import SignupForm
 
-from .models import Post
+from .models import Post, Category
 
 class PostForm(ModelForm):
     class Meta:

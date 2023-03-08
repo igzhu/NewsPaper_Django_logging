@@ -1,0 +1,10 @@
+{% load news_filters %}
+{% if posts %}
+  {% for post in posts %}
+      <hr>
+      {% include 'news/includes/details.html' %}
+      <p>{{ post.postText|censor }}</p>
+  {% endfor %}
+{% else %}
+  <h2>Пока нет постов.</h2>
+{% endif %}
