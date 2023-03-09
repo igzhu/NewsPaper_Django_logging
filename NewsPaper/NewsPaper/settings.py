@@ -63,7 +63,7 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_EMAIL_VERIFICATION = 'optional' #'none' or 'mandatory'
 
 ACCOUNT_FORMS = {'signup': 'news.forms.BasicSignupForm'}
 
@@ -169,6 +169,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')  # пароль от поч�
 EMAIL_USE_SSL = config('EMAIL_USE_SSL')     # must be True
 DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 
-APPSCHEDULER_RUN_NOW_TIMEOUT = 25  # sec
-if DEBUG:
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+APPSCHEDULER_RUN_NOW_TIMEOUT = 250  # sec
+
+#if DEBUG:
+#    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
