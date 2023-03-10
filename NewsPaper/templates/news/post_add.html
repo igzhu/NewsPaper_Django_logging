@@ -8,6 +8,7 @@
 {% endblock logout%} -->
 
 {% block content %}
+    {#% include 'news/includes/limit_exceeded.html' %#}
     <h2>Написать новость или статью</h2>
     <form method="POST">
          {% csrf_token %}
@@ -40,4 +41,6 @@
         </div>    -->
         <input type="submit" value="Добавить">
     </form>
+
+
 {% endblock content %}

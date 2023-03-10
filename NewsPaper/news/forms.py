@@ -8,7 +8,8 @@ from .models import Post, Category
 class PostForm(ModelForm):
     class Meta:
         model = Post
-        fields = ['postAuthor', 'postType', 'category', 'head', 'postText', ]
+        #fields = ['postAuthor', 'postType', 'category', 'head', 'postText', ]
+        fields = ['postType', 'category', 'head', 'postText', ]
 
     #def __init__(self, *args, **kwargs):
     #    #user = kwargs.pop('user', '')

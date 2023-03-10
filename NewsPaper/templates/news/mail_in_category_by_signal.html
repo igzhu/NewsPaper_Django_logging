@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load news_filters %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New post!</title>
+</head>
+<body>
+    <h2>Здравствуйте! Новая статья в вашем любимом разделе!</h2>
+    <p> Есть новая публикация {{ post.head }} в категории: {{ category }}:  </p>
+    <hr>
+    <p> <strong>Автор - {{ post.postAuthor.authorName.username }}</strong></p>
+    <hr>
+    <a href="http://127.0.0.1:8000{% url 'post_detail' post.id %}">
+        <h3>{{ post.head|censor|truncatewords:12 }}</h3>
+    </a>
+    <p>
+        {{ post.preview|censor }}
+    </p>
+
+</body>
+</html>

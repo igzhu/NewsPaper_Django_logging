@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.google',
 
     
-    'news',
+    'news.apps.NewsConfig',
     'django_filters',
 ]
 
@@ -169,7 +169,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')  # пароль от поч�
 EMAIL_USE_SSL = config('EMAIL_USE_SSL')     # must be True
 DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 
-APPSCHEDULER_RUN_NOW_TIMEOUT = 250  # sec
+APPSCHEDULER_RUN_NOW_TIMEOUT = 25  # sec
 
-#if DEBUG:
-#    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+if DEBUG:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

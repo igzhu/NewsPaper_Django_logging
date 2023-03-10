@@ -38,7 +38,18 @@ Posts:
         {% endfor %}
         </table>
 
-        <a href="{% url 'post_add' %}">Добавить новый пост</a> <br>
+
+        {#% if messages %#}
+        {% if post_limited %}
+            <h2 style="color: red">
+                <p>Превышен лимит 3 поста в сутки!</p>
+            </h2>
+        {% else %}
+                <a href="{% url 'post_add' %}">Добавить новый пост</a> <br>
+       {% endif %}
+
+
+
 
         {% if is_paginated %}
 

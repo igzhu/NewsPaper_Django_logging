@@ -5,6 +5,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMix
 
 from django.contrib.auth.models import Group
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages #import messages
 
 from django.conf import settings
 from django.urls import resolve
@@ -14,7 +15,7 @@ from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from datetime import datetime
 
-from .models import Post, Category, User
+from .models import Post, Category, User, Author
 from .filters import PostFilter
 from .forms import PostForm
 
@@ -29,41 +30,26 @@ class PostsList(ListView):
     queryset = Post.objects.order_by('-postDatetime')
     paginate_by = 10
 
+    def limit_posts(self):
+        user = self.request.user
+        #if Author.objects.get_or_create(authorName=user)[0]:
+        if user.id:
+            current_author = Author.objects.get_or_create(authorName=user)[0]
+            time_now = datetime.now().date()
+            posts_in_current_date = Post.objects.filter(postAuthor=current_author, postDatetime__date=time_now).count()
+            if posts_in_current_date >= 3:
+                messages.error(self.request, "Превышен лимит 3 поста в сутки !")
+                return True
+            return False
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['categories'] = Category.objects.all()
         context['form'] = PostForm()
+        post_limited = self.limit_posts()
+        context['post_limited'] = post_limited
         context['is_not_premium'] = not self.request.user.groups.filter(name='authors').exists()
         return context
-
-    '''def post(self, request, *args, **kwargs):
-        form = self.form_class(request.POST)
-        if form.is_valid():
-            form.save()
-            header = form.cleaned_data.get("head")
-            txt = form.cleaned_data.get('postText')  # .[:51]
-            ctgries = form.cleaned_data.get("category")
-            for ctgr in ctgries:
-                categ = Category.objects.get(name=ctgr.name)
-                cat_users = categ.subscribers.all()
-                for usr in cat_users:
-                    html_content = render_to_string('news/mail_in_category.html',
-                       {'headr': header,
-                        'catgor': categ.name,
-                        'text': txt,
-                        'nam': usr.username,
-                        'e_mail': usr.email, }
-                    )
-                    msg = EmailMultiAlternatives(
-                        subject=header,
-                        body=txt[:51],
-                        from_email=DEFAULT_FROM_EMAIL,
-                        to=[usr.email, ]
-                    )
-                    msg.attach_alternative(html_content, "text/html")
-                    msg.send()
-        # form.save()
-        return super().get(request, *args, **kwargs)'''
 
 
 class PostDetails(DetailView):
@@ -97,7 +83,6 @@ class PostAdd(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
     permission_required = ('news.add_post',)
     template_name = 'news/post_add.html'
     # context_object_name = 'posts'
-    # context_object_name = 'posted_item'
     form_class = PostForm
 
     def get_context_data(self, **kwargs):
@@ -106,16 +91,30 @@ class PostAdd(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
         context['form'] = PostForm()
         return context
 
-    #def get_context_data(self, **kwargs):
-    #    context = super().get_context_data(**kwargs)
-    #    context['categories'] = Category.objects.all()
-    #    context['form'] = PostForm()
-    #    context['is_not_premium'] = not self.request.user.groups.filter(name='authors').exists()
-    #    return context
+    def post(self, *args, **kwargs):
+        form = self.form_class(self.request.POST)
 
-    def post(self, request, *args, **kwargs):
-        form = self.form_class(request.POST)
         if form.is_valid():
+            user = self.request.user
+            post = form.save(commit=False)
+            current_author = Author.objects.get_or_create(authorName=user)[0]
+            post.postAuthor = current_author
+            form.save()
+            #return self.form.valid(form)
+        '''  # этот кусок кода - рабочий !!!:
+        user = self.request.user
+        #post = form.save(commit=False)
+        
+        time_now = datetime.now().date()
+        posts_in_current_date = Post.objects.filter(postAuthor=current_author, postDatetime__date=time_now).count()
+        if posts_in_current_date >= 3:
+            messages.error(request, "Превышен лимит 3 поста в сутки !")
+            return redirect('/posts/')
+
+        if form.is_valid():
+            #form.fields['postAuthor'] = current_author
+            post = form.save(commit=False)
+            post.postAuthor = current_author
             form.save()
             header = form.cleaned_data.get("head")
             txt = form.cleaned_data.get('postText')  # .[:51]
@@ -139,15 +138,11 @@ class PostAdd(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
                     )
                     msg.attach_alternative(html_content, "text/html")
                     msg.send()
-        # form.save()
-        #return redirect(request.META.get('HTTP_REFERER'))
-        #return super().get(request, *args, **kwargs)
+        '''  # этот кусок кода - рабочий !!!
+
+
         return redirect('/posts/')
 
-    # def get_context_data(self, **kwargs):
-    #    context = super().get_context_data(**kwargs)
-    #    context['is_not_premium'] = not self.request.user.groups.filter(name='authors').exists()
-    #    return context
 
 
 class PostEdit(LoginRequiredMixin, PermissionRequiredMixin, UpdateView):

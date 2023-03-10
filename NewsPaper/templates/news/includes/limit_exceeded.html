@@ -1,0 +1,11 @@
+{% if messages %}
+<ul>
+    {% for message in messages %}
+    <h2 style="color: red">
+        <li>
+           <a href="/posts/">{{ message }}</a>
+        </li>
+    </h2>
+    {% endfor %}
+</ul>
+{% endif %}
