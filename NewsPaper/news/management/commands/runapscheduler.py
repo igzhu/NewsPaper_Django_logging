@@ -5,6 +5,8 @@ from apscheduler.triggers.cron import CronTrigger
 from django.core.management.base import BaseCommand
 from django_apscheduler.jobstores import DjangoJobStore
 from django_apscheduler.models import DjangoJobExecution
+from django.template.loader import render_to_string
+from django.core.mail.message import EmailMultiAlternatives
 from datetime import datetime, timedelta
 from news.models import Post, Category, PostCategory
 from news.tasks import enlist_subscribers
@@ -15,9 +17,10 @@ logger = logging.getLogger(__name__)
 
 # наша задача по выводу текста на экран
 def my_job():
-    time_now = datetime.today()
+    #time_now = datetime.today()
+    time_now = datetime.now().date()
     time_week_before = time_now + timedelta(days=-7)
-    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)
+    posts_in_week = Post.objects.filter(postDatetime__date__gte=time_week_before)
     usrs_mails = []
     for post in posts_in_week:
         for ctgry in post.category.all():
