@@ -29,7 +29,7 @@ def my_job():
     usr_mail_list = list(user_mails)
     mail_weekly_html = render_to_string(
         template_name='news/mail_weekly.html',
-        context = {"posts_in_week": posts_in_week,}
+        context={"posts_in_week": posts_in_week,}
         )
     msg = EmailMultiAlternatives(
         subject='New posts by last 7 days',
