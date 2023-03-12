@@ -101,7 +101,7 @@ class PostAdd(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
             post.postAuthor = current_author
             form.save()
             #return self.form.valid(form)
-        '''  # этот кусок кода - рабочий !!!:
+        '''  # этот кусок кода -альтернатива email by signal - рабочий !!!:
         user = self.request.user
         #post = form.save(commit=False)
         
@@ -138,7 +138,7 @@ class PostAdd(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
                     )
                     msg.attach_alternative(html_content, "text/html")
                     msg.send()
-        '''  # этот кусок кода - рабочий !!!
+        '''  # этот кусок кода - альтернатива email by signal - рабочий !!!
 
 
         return redirect('/posts/')

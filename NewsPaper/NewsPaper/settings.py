@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     
     'news.apps.NewsConfig',
     'django_filters',
+    'django_apscheduler',
+
 ]
 
 SITE_ID = 1
@@ -86,6 +88,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         #'DIRS': [],
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        #'DIRS': [os.path.join(BASE_DIR, 'templates'), os.path.join(BASE_DIR, 'news'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -169,7 +172,8 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')  # пароль от поч�
 EMAIL_USE_SSL = config('EMAIL_USE_SSL')     # must be True
 DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 
-APPSCHEDULER_RUN_NOW_TIMEOUT = 25  # sec
+APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
+APSCHEDULER_RUN_NOW_TIMEOUT = 25  # sec
 
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
