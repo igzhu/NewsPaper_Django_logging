@@ -15,7 +15,6 @@ DEFAULT_FROM_EMAIL = settings.DEFAULT_FROM_EMAIL
 logger = logging.getLogger(__name__)
 
 
-# наша задача по выводу текста на экран
 def my_job():
     #time_now = datetime.today()
     time_now = datetime.now().date()
@@ -57,7 +56,7 @@ class Command(BaseCommand):
         # добавляем работу нашему задачнику
         scheduler.add_job(
             my_job,
-            trigger=CronTrigger(second="*/10"),
+            trigger=CronTrigger( day_of_week="mon", hour="00", minute="00")  #second="*/10"),
             id="my_job",  # уникальный айди
             max_instances=1,
             replace_existing=True,
