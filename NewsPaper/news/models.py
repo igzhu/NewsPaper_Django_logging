@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models import Sum
+from django.core.cache import cache
 
 
 class Author(models.Model):
@@ -70,10 +71,14 @@ class Post(models.Model):
     def __str__(self):
         return f'{self.head.title()[:18]}: {self.postText[:20]}'
 
-    def get_absolute_url(self):
+    def get_absolute_url(self):    # auto move to page after the Post creation
         return f'/posts/{self.id}'
 
-    def __str__(self):
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)  # saving the object
+        cache.delete(f'news_article-{self.pk}')  # clear the cache
+
+    def __repr__(self):
         return f'{self.get_postType_display()}'
 
 

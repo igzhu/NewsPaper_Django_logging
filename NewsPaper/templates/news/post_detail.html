@@ -1,5 +1,6 @@
 {% extends 'flatpages/default.html' %}
 {% load news_filters %}
+{% load cache %}
 {% block title %} Содержание поста{% endblock title %}
 {% block content %}
 <table>
@@ -20,6 +21,7 @@
             содержание
         </th>
     </thead>
+    {% cache 30 details %}
     <tr>
         <td>
             {{ post.postAuthor.authorName.username|title }}
@@ -40,5 +42,6 @@
             {{ post.postText|censor }}
         </td>
     </tr>
+    {% endcache %}
 </table>
 {% endblock content %}

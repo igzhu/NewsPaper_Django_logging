@@ -175,5 +175,13 @@ DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
 APSCHEDULER_RUN_NOW_TIMEOUT = 25  # sec
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': os.path.join(BASE_DIR, 'cache_files'),  # создать заранеепапку cache_files внутри папки с manage.py!
+    }
+}
+
+
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

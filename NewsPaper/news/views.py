@@ -15,6 +15,8 @@ from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from datetime import datetime
 
+from django.core.cache import cache  # импорт для кэша
+
 from .models import Post, Category, User, Author
 from .filters import PostFilter
 from .forms import PostForm
@@ -60,6 +62,13 @@ class PostDetails(DetailView):
         context = super().get_context_data(**kwargs)
         context['is_not_premium'] = not self.request.user.groups.filter(name='authors').exists()
         return context
+
+    def get_object(self, *args, **kwargs):
+        news_post = cache.get(f'news_article-{self.kwargs["pk"]}', None)  # 'None' returns when 'pk' not in the cache
+        if not news_post:
+            news_post = super().get_object(queryset=self.queryset)
+            cache.set(f'news_article-{self.kwargs["pk"]}', news_post)
+        return news_post
 
 
 class PostSearch(ListView):

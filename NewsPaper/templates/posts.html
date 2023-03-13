@@ -1,5 +1,6 @@
 {% extends 'flatpages/default.html' %}
 {% load news_filters %}
+{% load cache %} <!-- Загружаем кэширование -->
 
 {% block title %}
 Posts:
@@ -20,6 +21,8 @@ Posts:
                     Содержание
                 </td>
             </tr>
+
+        {% cache 30 news_list %}
         {% for new in posts %}
             <tr>
                 <td>
@@ -36,6 +39,7 @@ Posts:
                 </td>
             </tr>
         {% endfor %}
+        {% endcache %}
         </table>
 
 
@@ -50,7 +54,7 @@ Posts:
 
 
 
-
+        {% cache 30 paginate %}
         {% if is_paginated %}
 
             {% if page_obj.has_previous %}
@@ -72,7 +76,7 @@ Posts:
             {% endif %}
 
         {% endif %}
-
+        {% endcache %}
     {% else %}
         <h2>Новостей нет!</h2>
     {% endif %}
