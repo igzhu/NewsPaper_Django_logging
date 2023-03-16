@@ -65,6 +65,8 @@ bestComment = Comment.objects.filter(commentPost = bestP)
 bestComment.values('commentDatetime', 'commentUser', 'commentRate', 'commentTxt')
 
 py manage.py dumpdata --format=json --indent=2 news.Post news.Category > pg.json
+python manage.py flush
+
 
 
 
