@@ -1,0 +1,4409 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-02-19T10:32:36.423Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Last Article: this is last article",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-02-19T12:13:44.265Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "With Banned Word: post with word fuck ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-02-19T12:14:01.525Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "With Banned Word: post with word fuck ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-02-19T12:19:39.575Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "With Banned Word: post with word fuck ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-02-19T12:20:13.593Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "With Banned Word: post with word пизде",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"PostText\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-02-19T12:21:52.623Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "With Banned Word: post with word fuck ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"PostText\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-02-19T12:23:58.318Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "With Banned Word: post with word fuck ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-02-26T09:25:41.487Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "2 New: 2 new new",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-02-26T09:26:02.647Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "3_New: 3_new_new",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-02-26T09:26:07.759Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "3_New: 3_new_new",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-02-26T09:26:35.054Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "4_Arcl: 4_arcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-02-26T09:26:58.102Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "5_Artck: 5_artck_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-02-26T09:27:15.179Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "6_News: 6_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-02-26T09:27:31.389Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "7_News: 7_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-02-26T09:27:54.398Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "8_Artc: 8_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-02-26T09:28:10.033Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "9_News: 9_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-02-26T09:28:32.093Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "10_Artck: 10_artc_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-02-26T09:28:49.373Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "11_Artck: 11_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-02-26T09:29:15.109Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "12_Artcl: 12_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-02-26T09:29:34.077Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "13_Artcl: 13_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-02-26T09:29:49.039Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "14_News: 14_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-02-26T09:30:06.020Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "15_News: 14_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-02-26T09:30:28.257Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "16_Artcl: 16_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-02-26T09:30:47.007Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "17_Artcl: 17_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-02-26T09:31:02.835Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "18_News: 18_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-02-26T09:31:17.122Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "19_News: 19_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-02-26T09:31:41.763Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "20_Artc: 20_artc_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-02-26T09:32:00.612Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "21_Artc: 21_artc_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-02-26T09:32:15.288Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "22_News: 22_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-02-26T09:32:32.497Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "23_Artcl: 23_artcl_artcl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-02-26T09:32:46.873Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "24_News: 24_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-02-26T09:33:26.791Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "25_News: 25_news_news",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-03-04T11:02:56.444Z",
+    "user": 5,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "127.0.0.1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-03-04T12:44:36.604Z",
+    "user": 5,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Google",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-03-04T13:40:27.122Z",
+    "user": 5,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "common",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-03-04T13:40:38.961Z",
+    "user": 5,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "authors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-03-05T07:49:00.532Z",
+    "user": 5,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "authors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-03-05T07:49:04.976Z",
+    "user": 5,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "authors",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-03-09T07:27:08.614Z",
+    "user": 5,
+    "content_type": 4,
+    "object_id": "20",
+    "object_repr": "n90725429",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-03-09T07:37:53.818Z",
+    "user": 5,
+    "content_type": 4,
+    "object_id": "21",
+    "object_repr": "n90725429",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-03-09T07:42:23.096Z",
+    "user": 5,
+    "content_type": 4,
+    "object_id": "22",
+    "object_repr": "n90725429",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-03-09T09:50:23.688Z",
+    "user": 5,
+    "content_type": 4,
+    "object_id": "24",
+    "object_repr": "n907254299",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-03-09T10:00:43.052Z",
+    "user": 5,
+    "content_type": 4,
+    "object_id": "25",
+    "object_repr": "n907254296",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-03-09T10:00:43.070Z",
+    "user": 5,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "nik",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add author",
+    "content_type": 7,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change author",
+    "content_type": 7,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete author",
+    "content_type": 7,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view author",
+    "content_type": 7,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 8,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 8,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 8,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 8,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 9,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 9,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 9,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 9,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add post category",
+    "content_type": 10,
+    "codename": "add_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change post category",
+    "content_type": 10,
+    "codename": "change_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete post category",
+    "content_type": 10,
+    "codename": "delete_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view post category",
+    "content_type": 10,
+    "codename": "view_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 11,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 11,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 11,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 11,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 12,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 12,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 12,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 12,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add flat page",
+    "content_type": 13,
+    "codename": "add_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change flat page",
+    "content_type": 13,
+    "codename": "change_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete flat page",
+    "content_type": 13,
+    "codename": "delete_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view flat page",
+    "content_type": 13,
+    "codename": "view_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add email address",
+    "content_type": 14,
+    "codename": "add_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change email address",
+    "content_type": 14,
+    "codename": "change_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete email address",
+    "content_type": 14,
+    "codename": "delete_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view email address",
+    "content_type": 14,
+    "codename": "view_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add email confirmation",
+    "content_type": 15,
+    "codename": "add_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change email confirmation",
+    "content_type": 15,
+    "codename": "change_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete email confirmation",
+    "content_type": 15,
+    "codename": "delete_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view email confirmation",
+    "content_type": 15,
+    "codename": "view_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add social account",
+    "content_type": 16,
+    "codename": "add_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change social account",
+    "content_type": 16,
+    "codename": "change_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete social account",
+    "content_type": 16,
+    "codename": "delete_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view social account",
+    "content_type": 16,
+    "codename": "view_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add social application",
+    "content_type": 17,
+    "codename": "add_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change social application",
+    "content_type": 17,
+    "codename": "change_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete social application",
+    "content_type": 17,
+    "codename": "delete_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view social application",
+    "content_type": 17,
+    "codename": "view_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add social application token",
+    "content_type": 18,
+    "codename": "add_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change social application token",
+    "content_type": 18,
+    "codename": "change_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete social application token",
+    "content_type": 18,
+    "codename": "delete_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view social application token",
+    "content_type": 18,
+    "codename": "view_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add category user",
+    "content_type": 19,
+    "codename": "add_categoryuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change category user",
+    "content_type": 19,
+    "codename": "change_categoryuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete category user",
+    "content_type": 19,
+    "codename": "delete_categoryuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view category user",
+    "content_type": 19,
+    "codename": "view_categoryuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add django job",
+    "content_type": 20,
+    "codename": "add_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change django job",
+    "content_type": 20,
+    "codename": "change_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete django job",
+    "content_type": 20,
+    "codename": "delete_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view django job",
+    "content_type": 20,
+    "codename": "view_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add django job execution",
+    "content_type": 21,
+    "codename": "add_djangojobexecution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change django job execution",
+    "content_type": 21,
+    "codename": "change_djangojobexecution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete django job execution",
+    "content_type": 21,
+    "codename": "delete_djangojobexecution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view django job execution",
+    "content_type": 21,
+    "codename": "view_djangojobexecution"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "common",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "authors",
+    "permissions": [
+      33,
+      34
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "someone",
+    "first_name": "Nik",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-02-16T15:23:01.975Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "someone_1",
+    "first_name": "Nik",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-02-16T15:30:00.284Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "!30RCq4QC4ueV0vRRveyb5t2JJ8GH1jzk4BXFuiUH",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "man_1",
+    "first_name": "dow",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-02-16T17:09:09.194Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "!gKibx2XD70WXfCBTBCCzMWSFQUCYumAO4ShxuVgr",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "girl_1",
+    "first_name": "Elly",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-02-16T17:12:29.210Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$fgkmHsWBLcMU4ZbD69TWAw$h2jy6BU4aQY6VmeOqTrjujZSJi6HMQrrpAzx0zQYXYo=",
+    "last_login": "2023-03-09T14:14:38.188Z",
+    "is_superuser": true,
+    "username": "adm",
+    "first_name": "",
+    "last_name": "",
+    "email": "qwe@qwe.qwe",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-19T07:10:53.294Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$1Wh1P9pp03nYFud8yI4yaR$IcFMCECWTCB4j1BNFCiVVpWZficJpvTqQh9cnJRE/eQ=",
+    "last_login": "2023-03-10T11:08:19.874Z",
+    "is_superuser": false,
+    "username": "as",
+    "first_name": "",
+    "last_name": "",
+    "email": "as@as.as",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T10:59:39.443Z",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$x0WlPv1pv3eZYyXkY4ujG5$mk8vXzpLDFy2MTq5sRw8t/Z0IOduEwPctq6g20CJLyY=",
+    "last_login": "2023-03-04T14:31:25.254Z",
+    "is_superuser": false,
+    "username": "aq",
+    "first_name": "",
+    "last_name": "",
+    "email": "aq@aq.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T13:48:47.017Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$5FPFqN2BjjpREUu6eygJEO$KjpEyDZtENWAQLBMvvVLS0H1sNulBwZAUi3bJXa5Fzw=",
+    "last_login": "2023-03-04T14:55:23.617Z",
+    "is_superuser": false,
+    "username": "aa",
+    "first_name": "",
+    "last_name": "",
+    "email": "aa@aa.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T13:58:11.479Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$tr9migwQ3HhprW7ihTKFeP$Fb89LcmgPD6E7iLuKLwzaxNk3EqfUtFRH/gSw162YIk=",
+    "last_login": "2023-03-04T14:52:57.434Z",
+    "is_superuser": false,
+    "username": "qa",
+    "first_name": "",
+    "last_name": "",
+    "email": "qa@qa.qa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T14:52:55.034Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$VZVdbCxtp5XBZEHs8Lq19x$skp72cYeM2wkMvT7SCdG9mhi3W5Rqg9r5feIWGj/1VE=",
+    "last_login": "2023-03-08T13:38:07.075Z",
+    "is_superuser": false,
+    "username": "qw",
+    "first_name": "",
+    "last_name": "",
+    "email": "qw@qw.qw",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T15:01:13.773Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$N49EHBuiPoRKBs7z1o156A$nlb64VKj/ZJeE1XGZayDnsmgqIkMOb3KZ0/hWLpWxEI=",
+    "last_login": "2023-03-08T07:54:58.793Z",
+    "is_superuser": false,
+    "username": "qs",
+    "first_name": "",
+    "last_name": "",
+    "email": "qs@qs.qs",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T15:06:53.971Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$RiX8MDmp6N7aOjupBmz8DR$JEV/WZJna4iET5xjfIczm02yT+gNdR/+2iXXRMo6qKc=",
+    "last_login": "2023-03-10T14:06:49.065Z",
+    "is_superuser": false,
+    "username": "er",
+    "first_name": "",
+    "last_name": "",
+    "email": "er@er.er",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T15:17:42.950Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$QYYqfKIruoqN22gxBJFFUS$ZKMThCkFpQg5luyMs1jcX973og/cVLGIR8/DZTxYG2k=",
+    "last_login": "2023-03-10T12:36:14.163Z",
+    "is_superuser": false,
+    "username": "cv",
+    "first_name": "",
+    "last_name": "",
+    "email": "cv@cv.cv",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-04T15:20:49.896Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$iKO0F2Vnw1yhwXjKwGEn5q$otRSWc3r0UgvBDjM3YqgTUzp5zgWZzv14z38It9ZPKo=",
+    "last_login": "2023-03-07T07:49:26.212Z",
+    "is_superuser": false,
+    "username": "od",
+    "first_name": "",
+    "last_name": "",
+    "email": "od@od.od",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-05T07:57:46.836Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$1nEeRT00MFROO4BYxG5AhM$OnSshveDm97LOYmp28X/br/9Gax3JIcRm1DiX9kWCU4=",
+    "last_login": "2023-03-07T14:01:59.847Z",
+    "is_superuser": false,
+    "username": "sx",
+    "first_name": "",
+    "last_name": "",
+    "email": "sx@sx.sx",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-05T08:09:34.769Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$HD8HY12dJnMDKFo2F0N8zL$Q2lYEwmv5gCE5FtAbRZ4Y/ZXBr6rL5RaruYwUN7lOdQ=",
+    "last_login": "2023-03-10T11:22:14.229Z",
+    "is_superuser": false,
+    "username": "xs",
+    "first_name": "",
+    "last_name": "",
+    "email": "xs@xs.xs",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-08T15:05:52.891Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$hlWruCTa83IMHvSd3R29Ug$Du55iyv/N9oxuIpZefPEHTL37j1YPMYmQlyeVnXuOKE=",
+    "last_login": "2023-03-09T07:03:11.296Z",
+    "is_superuser": false,
+    "username": "fe",
+    "first_name": "",
+    "last_name": "",
+    "email": "fe@fe.fe",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-09T07:03:10.282Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$qZA9EKJ0LGrN7NNVQgIJmq$6Cgp1PdCJuKr1nMepTWLGa3T7cBfQpox79hC2vYculQ=",
+    "last_login": "2023-03-09T07:19:44.326Z",
+    "is_superuser": false,
+    "username": "ea",
+    "first_name": "",
+    "last_name": "",
+    "email": "ea@ea.ea",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-09T07:19:43.330Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$pjea5hnv3c188KJxI3ALJo$yGy3nCSw/z22E5VWR0Sj6dmlFrgti6SgeGq8ZymJ4tU=",
+    "last_login": "2023-03-10T11:26:18.830Z",
+    "is_superuser": false,
+    "username": "n90725429",
+    "first_name": "",
+    "last_name": "",
+    "email": "n90725429@yandex.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-09T07:43:00.229Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$zrIljwUzaCcQ8d6j6nbWWZ$ohX/bU9/xTbhV0KrZAlPzCHseom29legGfNZbTj9Fh0=",
+    "last_login": "2023-03-10T11:09:28.784Z",
+    "is_superuser": false,
+    "username": "nik68032",
+    "first_name": "",
+    "last_name": "",
+    "email": "nik68032@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-09T10:01:09.019Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$TomcgcgwHvEhAol71LI33A$GvVqHb1La7OQDgXYTlxU4JAUyKaELZf/ATrKvAlH7oY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fr",
+    "first_name": "",
+    "last_name": "",
+    "email": "fr@fr.fr",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-12T13:35:54.609Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$sKrFkLxKL9kjBumXwUYsLE$Lti9hG6BCyoZ7uB4NkpdyF2WNaX/FQHRdrSlLSnY4Kg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fra",
+    "first_name": "",
+    "last_name": "",
+    "email": "fra@fra.fra",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-12T13:39:34.139Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$h2KnAdnX8kmxXPWNbwfeXT$3OcBrqMH687VMFz+axpqdvB9xPJt6oaRbPFOPSTVT4A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fwra",
+    "first_name": "",
+    "last_name": "",
+    "email": "fwra@frae.ae",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-12T13:41:01.535Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 30,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$ar6NI4iDguY2Hu6bsu7e5b$vhe+n5mFwWzgJHMOo1+yQ/nd0hL2UBQ4BBNgNb8vWEg=",
+    "last_login": "2023-03-12T13:42:30.213Z",
+    "is_superuser": false,
+    "username": "tf",
+    "first_name": "",
+    "last_name": "",
+    "email": "tf@tf.tf",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-12T13:42:27.343Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 31,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$MwCpyu3QhkHjGrhM5kfLYl$Cz2zLjzEi+prcT6Cp9tK2tu+TpeCCfvXjtY6s4IuqQE=",
+    "last_login": "2023-03-12T13:52:24.708Z",
+    "is_superuser": false,
+    "username": "et",
+    "first_name": "",
+    "last_name": "",
+    "email": "et@et.et",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-12T13:52:22.082Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "news",
+    "model": "author"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "news",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "news",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "news",
+    "model": "postcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "news",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "flatpages",
+    "model": "flatpage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "account",
+    "model": "emailaddress"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "account",
+    "model": "emailconfirmation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialaccount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialapp"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "news",
+    "model": "categoryuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "django_apscheduler",
+    "model": "djangojob"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "django_apscheduler",
+    "model": "djangojobexecution"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5pp2t9fq8zm81mpmgrlaz673ps3oyygk",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDiADIu3XsGMsOAVA1NSrsy3l2bdKHb_977LxVpXWpce57jKOqsnDr8bkzpkdsG5E7tNuk0tWUeWW-K3mnX10ny87K7fweVev3WEPyAiMyFLRkLAZIwiHdiih3MEUL2WAAcorUOyAtAMSfHaDwJefX-AMsFNyI:1pYTIp:l9DLzSnQUaXvWneIkp4OecbryCZlHa7qviyrMzYI_0c",
+    "expire_date": "2023-03-18T14:56:03.039Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6xx720mgn6arcnvbj3e4xfbdsz5midpu",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDiADIu3XsGMsOAVA1NSrsy3l2bdKHb_977LxVpXWpce57jKOqsnDr8bkzpkdsG5E7tNuk0tWUeWW-K3mnX10ny87K7fweVev3WEPyAiMyFLRkLAZIwiHdiih3MEUL2WAAcorUOyAtAMSfHaDwJefX-AMsFNyI:1paH2S:Bdsd6DxQwc7J264No5aK6pr_LncTusKdSRbh4MxDQn8",
+    "expire_date": "2023-03-23T14:14:36.764Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "udg724tdfzbqksqr2g3n9gzpxz6hezax",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDiADIu3XsGMsOAVA1NSrsy3l2bdKHb_977LxVpXWpce57jKOqsnDr8bkzpkdsG5E7tNuk0tWUeWW-K3mnX10ny87K7fweVev3WEPyAiMyFLRkLAZIwiHdiih3MEUL2WAAcorUOyAtAMSfHaDwJefX-AMsFNyI:1pYTPG:Gm9FQBrASptG7pp3FSKKqvDCJLlm9CaVVweFkz_i7og",
+    "expire_date": "2023-03-18T15:02:42.923Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "127.0.0.1",
+    "name": "example.com"
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 1,
+  "fields": {
+    "user": 6,
+    "email": "as@as.as",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 3,
+  "fields": {
+    "user": 8,
+    "email": "aq@aq.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 4,
+  "fields": {
+    "user": 9,
+    "email": "aa@aa.aa",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 5,
+  "fields": {
+    "user": 10,
+    "email": "qa@qa.qa",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 6,
+  "fields": {
+    "user": 11,
+    "email": "qw@qw.qw",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 7,
+  "fields": {
+    "user": 12,
+    "email": "qs@qs.qs",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 8,
+  "fields": {
+    "user": 13,
+    "email": "er@er.er",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 9,
+  "fields": {
+    "user": 14,
+    "email": "cv@cv.cv",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 10,
+  "fields": {
+    "user": 15,
+    "email": "od@od.od",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 11,
+  "fields": {
+    "user": 16,
+    "email": "sx@sx.sx",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 12,
+  "fields": {
+    "user": 17,
+    "email": "xs@xs.xs",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 13,
+  "fields": {
+    "user": 18,
+    "email": "fe@fe.fe",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 14,
+  "fields": {
+    "user": 19,
+    "email": "ea@ea.ea",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 18,
+  "fields": {
+    "user": 23,
+    "email": "n90725429@yandex.ru",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 21,
+  "fields": {
+    "user": 26,
+    "email": "nik68032@gmail.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 22,
+  "fields": {
+    "user": 30,
+    "email": "tf@tf.tf",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 23,
+  "fields": {
+    "user": 31,
+    "email": "et@et.et",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "google",
+    "name": "Google",
+    "client_id": "661133823549-74ih0l6qd3oc76jggah2oc3tvip3f0d1.apps.googleusercontent.com",
+    "secret": "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",
+    "key": "",
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "news.author",
+  "pk": 1,
+  "fields": {
+    "authorName": 3,
+    "authorRate": 20
+  }
+},
+{
+  "model": "news.author",
+  "pk": 2,
+  "fields": {
+    "authorName": 4,
+    "authorRate": -4
+  }
+},
+{
+  "model": "news.author",
+  "pk": 3,
+  "fields": {
+    "authorName": 6,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 4,
+  "fields": {
+    "authorName": 26,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 5,
+  "fields": {
+    "authorName": 17,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 6,
+  "fields": {
+    "authorName": 23,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 7,
+  "fields": {
+    "authorName": 14,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 8,
+  "fields": {
+    "authorName": 13,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 9,
+  "fields": {
+    "authorName": 30,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 10,
+  "fields": {
+    "authorName": 31,
+    "authorRate": 0
+  }
+},
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "name": "devel"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "name": "sales"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "name": "prod"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 4,
+  "fields": {
+    "name": "hr"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 5,
+  "fields": {
+    "name": "legal"
+  }
+},
+{
+  "model": "news.post",
+  "pk": 4,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-19T10:32:36.418Z",
+    "head": "last article",
+    "postText": "this is last article.",
+    "postRate": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 5,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-19T12:13:44.260Z",
+    "head": "with banned word",
+    "postText": "post with word fuck and пиздец.",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 6,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:25:41.481Z",
+    "head": "2 new",
+    "postText": "2 new new",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 10,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:27:15.174Z",
+    "head": "6_news",
+    "postText": "6_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 11,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:27:31.381Z",
+    "head": "7_news",
+    "postText": "7_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 12,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:27:54.393Z",
+    "head": "8_artc",
+    "postText": "8_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 13,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:28:10.029Z",
+    "head": "9_news",
+    "postText": "9_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 14,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:28:32.089Z",
+    "head": "10_artck",
+    "postText": "10_artc_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 15,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:28:49.369Z",
+    "head": "11_artck",
+    "postText": "11_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 16,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:29:15.102Z",
+    "head": "12_artcl",
+    "postText": "12_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 17,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:29:34.072Z",
+    "head": "13_artcl",
+    "postText": "13_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 18,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:29:49.035Z",
+    "head": "14_news",
+    "postText": "14_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 19,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:30:06.016Z",
+    "head": "15_news",
+    "postText": "14_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 20,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:30:28.252Z",
+    "head": "16_artcl",
+    "postText": "16_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 21,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:30:47.002Z",
+    "head": "17_artcl",
+    "postText": "17_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 22,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:31:02.829Z",
+    "head": "18_news",
+    "postText": "18_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 23,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:31:17.117Z",
+    "head": "19_news",
+    "postText": "19_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 24,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:31:41.759Z",
+    "head": "20_artc",
+    "postText": "20_artc_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 25,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:32:00.607Z",
+    "head": "21_artc",
+    "postText": "21_artc_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 26,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:32:15.281Z",
+    "head": "22_news",
+    "postText": "22_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 27,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:32:32.493Z",
+    "head": "23_artcl",
+    "postText": "23_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 28,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:32:46.868Z",
+    "head": "204_news",
+    "postText": "204_news_newsereweewewqewqeqw",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 29,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:33:26.785Z",
+    "head": "25_news",
+    "postText": "25_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 32,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-01T11:25:30.726Z",
+    "head": "333",
+    "postText": "33333333333",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 35,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-01T11:26:39.216Z",
+    "head": "66",
+    "postText": "66666666666666666666666666666666666666666666666",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 36,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-01T11:36:40.911Z",
+    "head": "77",
+    "postText": "77777777",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 41,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-01T12:39:24.624Z",
+    "head": "13",
+    "postText": "1233333",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 43,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-01T14:35:56.112Z",
+    "head": "15",
+    "postText": "1555555\r\nassdsdsada",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 46,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-01T20:11:13.998Z",
+    "head": "1mar",
+    "postText": "1marrrrrr",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 50,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-03T10:47:57.961Z",
+    "head": "3war",
+    "postText": "444333",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 52,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-03T10:53:38.643Z",
+    "head": "wer11",
+    "postText": "qwwqw2e32432q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 61,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-04T15:02:04.465Z",
+    "head": "yyttt",
+    "postText": "hfththf123456",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 64,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:14:01.803Z",
+    "head": "22",
+    "postText": "222",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 65,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:17:23.754Z",
+    "head": "1",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 66,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:19:56.103Z",
+    "head": "2",
+    "postText": "22",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 68,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:37:23.764Z",
+    "head": "4",
+    "postText": "44",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 69,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-08T12:39:27.789Z",
+    "head": "5",
+    "postText": "555",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 70,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:41:02.792Z",
+    "head": "6",
+    "postText": "66",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 71,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:43:57.934Z",
+    "head": "7",
+    "postText": "77",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 72,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:45:47.461Z",
+    "head": "8",
+    "postText": "88",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 75,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:56:31.174Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 76,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:58:08.511Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 77,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:05:18.573Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 78,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:09:06.241Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 79,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-08T13:09:21.544Z",
+    "head": "12",
+    "postText": "1212",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 80,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:10:35.046Z",
+    "head": "13",
+    "postText": "123",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 81,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:21:21.174Z",
+    "head": "14",
+    "postText": "131314",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 82,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:25:45.106Z",
+    "head": "15",
+    "postText": "1515",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 84,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:45:51.322Z",
+    "head": "17",
+    "postText": "1717",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 85,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-08T13:47:35.989Z",
+    "head": "18",
+    "postText": "1818",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 86,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:51:08.767Z",
+    "head": "19",
+    "postText": "19",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 87,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-09T14:19:37.474Z",
+    "head": "9ma",
+    "postText": "9mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 88,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-09T14:21:03.118Z",
+    "head": "9ma",
+    "postText": "9mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 89,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-09T14:22:21.242Z",
+    "head": "9ma",
+    "postText": "9mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 90,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T06:26:02.695Z",
+    "head": "10mar",
+    "postText": "10mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 91,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T06:34:04.483Z",
+    "head": "10mar",
+    "postText": "10mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 92,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T06:34:28.786Z",
+    "head": "1100m",
+    "postText": "1100m",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 93,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T07:13:19.033Z",
+    "head": "1q",
+    "postText": "1q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 94,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T07:15:13.718Z",
+    "head": "1q",
+    "postText": "1q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 95,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T07:16:35.921Z",
+    "head": "1q",
+    "postText": "1q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 96,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:54:48.916Z",
+    "head": "rreee",
+    "postText": "eerte",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 97,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:56:21.745Z",
+    "head": "eee",
+    "postText": "eeee",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 98,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:57:03.327Z",
+    "head": "ttrr",
+    "postText": "weerrwe",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 100,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:57:35.739Z",
+    "head": "1133123",
+    "postText": "13132312312",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 102,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T11:10:19.120Z",
+    "head": "rrr",
+    "postText": "rrrrr",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 105,
+  "fields": {
+    "postAuthor": 5,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T11:23:05.103Z",
+    "head": "cc",
+    "postText": "cccc",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 109,
+  "fields": {
+    "postAuthor": 6,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T11:56:04.481Z",
+    "head": "444",
+    "postText": "444444",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 111,
+  "fields": {
+    "postAuthor": 4,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T11:56:50.720Z",
+    "head": "32",
+    "postText": "3321",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 112,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T11:57:24.059Z",
+    "head": "423434235345",
+    "postText": "343432434324",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 113,
+  "fields": {
+    "postAuthor": 6,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T12:35:02.500Z",
+    "head": "au",
+    "postText": "eeerreauuu",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 115,
+  "fields": {
+    "postAuthor": 7,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T12:36:59.810Z",
+    "head": "csx",
+    "postText": "csx",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 116,
+  "fields": {
+    "postAuthor": 7,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T12:37:15.903Z",
+    "head": "cvx",
+    "postText": "cvx",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 117,
+  "fields": {
+    "postAuthor": 8,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T14:07:20.461Z",
+    "head": "fin10mar",
+    "postText": "fin10marfin10marfin10mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 9,
+  "fields": {
+    "postCategory": 28,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 11,
+  "fields": {
+    "postCategory": 5,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 14,
+  "fields": {
+    "postCategory": 26,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 17,
+  "fields": {
+    "postCategory": 32,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 20,
+  "fields": {
+    "postCategory": 35,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 33,
+  "fields": {
+    "postCategory": 41,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 39,
+  "fields": {
+    "postCategory": 43,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 41,
+  "fields": {
+    "postCategory": 36,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 42,
+  "fields": {
+    "postCategory": 36,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 44,
+  "fields": {
+    "postCategory": 46,
+    "categoryPost": 5
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 45,
+  "fields": {
+    "postCategory": 46,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 46,
+  "fields": {
+    "postCategory": 46,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 57,
+  "fields": {
+    "postCategory": 50,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 84,
+  "fields": {
+    "postCategory": 61,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 85,
+  "fields": {
+    "postCategory": 52,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 92,
+  "fields": {
+    "postCategory": 64,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 93,
+  "fields": {
+    "postCategory": 65,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 94,
+  "fields": {
+    "postCategory": 66,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 96,
+  "fields": {
+    "postCategory": 68,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 97,
+  "fields": {
+    "postCategory": 69,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 98,
+  "fields": {
+    "postCategory": 70,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 99,
+  "fields": {
+    "postCategory": 71,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 100,
+  "fields": {
+    "postCategory": 72,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 103,
+  "fields": {
+    "postCategory": 75,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 104,
+  "fields": {
+    "postCategory": 76,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 105,
+  "fields": {
+    "postCategory": 77,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 106,
+  "fields": {
+    "postCategory": 78,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 107,
+  "fields": {
+    "postCategory": 79,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 108,
+  "fields": {
+    "postCategory": 80,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 109,
+  "fields": {
+    "postCategory": 81,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 110,
+  "fields": {
+    "postCategory": 81,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 111,
+  "fields": {
+    "postCategory": 82,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 113,
+  "fields": {
+    "postCategory": 84,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 114,
+  "fields": {
+    "postCategory": 85,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 115,
+  "fields": {
+    "postCategory": 85,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 116,
+  "fields": {
+    "postCategory": 86,
+    "categoryPost": 5
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 117,
+  "fields": {
+    "postCategory": 89,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 118,
+  "fields": {
+    "postCategory": 91,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 120,
+  "fields": {
+    "postCategory": 92,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 121,
+  "fields": {
+    "postCategory": 93,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 122,
+  "fields": {
+    "postCategory": 94,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 123,
+  "fields": {
+    "postCategory": 95,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 124,
+  "fields": {
+    "postCategory": 96,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 125,
+  "fields": {
+    "postCategory": 97,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 126,
+  "fields": {
+    "postCategory": 98,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 128,
+  "fields": {
+    "postCategory": 100,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 130,
+  "fields": {
+    "postCategory": 102,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 133,
+  "fields": {
+    "postCategory": 105,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 134,
+  "fields": {
+    "postCategory": 105,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 135,
+  "fields": {
+    "postCategory": 105,
+    "categoryPost": 5
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 141,
+  "fields": {
+    "postCategory": 109,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 143,
+  "fields": {
+    "postCategory": 111,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 144,
+  "fields": {
+    "postCategory": 112,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 145,
+  "fields": {
+    "postCategory": 113,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 149,
+  "fields": {
+    "postCategory": 115,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 150,
+  "fields": {
+    "postCategory": 116,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 151,
+  "fields": {
+    "postCategory": 117,
+    "categoryPost": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 152,
+  "fields": {
+    "postCategory": 117,
+    "categoryPost": 3
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 1,
+  "fields": {
+    "userCategory": 15,
+    "categoryUser": 4
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 2,
+  "fields": {
+    "userCategory": 15,
+    "categoryUser": 2
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 3,
+  "fields": {
+    "userCategory": 15,
+    "categoryUser": 5
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 4,
+  "fields": {
+    "userCategory": 15,
+    "categoryUser": 3
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 5,
+  "fields": {
+    "userCategory": 16,
+    "categoryUser": 1
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 6,
+  "fields": {
+    "userCategory": 16,
+    "categoryUser": 3
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 7,
+  "fields": {
+    "userCategory": 16,
+    "categoryUser": 5
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 8,
+  "fields": {
+    "userCategory": 16,
+    "categoryUser": 2
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 9,
+  "fields": {
+    "userCategory": 16,
+    "categoryUser": 4
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 10,
+  "fields": {
+    "userCategory": 14,
+    "categoryUser": 1
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 11,
+  "fields": {
+    "userCategory": 14,
+    "categoryUser": 5
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 12,
+  "fields": {
+    "userCategory": 14,
+    "categoryUser": 4
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 13,
+  "fields": {
+    "userCategory": 14,
+    "categoryUser": 3
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 14,
+  "fields": {
+    "userCategory": 13,
+    "categoryUser": 2
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 15,
+  "fields": {
+    "userCategory": 12,
+    "categoryUser": 4
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 16,
+  "fields": {
+    "userCategory": 12,
+    "categoryUser": 2
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 17,
+  "fields": {
+    "userCategory": 12,
+    "categoryUser": 3
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 18,
+  "fields": {
+    "userCategory": 12,
+    "categoryUser": 1
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 19,
+  "fields": {
+    "userCategory": 12,
+    "categoryUser": 5
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 20,
+  "fields": {
+    "userCategory": 11,
+    "categoryUser": 4
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 21,
+  "fields": {
+    "userCategory": 19,
+    "categoryUser": 5
+  }
+},
+{
+  "model": "news.categoryuser",
+  "pk": 23,
+  "fields": {
+    "userCategory": 23,
+    "categoryUser": 3
+  }
+},
+{
+  "model": "django_apscheduler.djangojob",
+  "pk": "delete_old_job_executions",
+  "fields": {
+    "next_run_time": "2023-03-19T21:00:00Z",
+    "job_state": "gAWViwQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjEFuZXdzLm1hbmFnZW1lbnQuY29tbWFuZHMucnVuYXBzY2hlZHVsZXI6ZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMG3B5dHpfZGVwcmVjYXRpb25fc2hpbS5faW1wbJSMCXdyYXBfem9uZZSTlIwIYnVpbHRpbnOUjAdnZXRhdHRylJOUjAh6b25laW5mb5SMCFpvbmVJbmZvlJOUjAlfdW5waWNrbGWUhpRSlIwNRXVyb3BlL01vc2Nvd5RLAYaUUpRoGYaUUpSMCnN0YXJ0X2RhdGWUTowIZW5kX2RhdGWUTowGZmllbGRzlF2UKIwgYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5maWVsZHOUjAlCYXNlRmllbGSUk5QpgZR9lCiMBG5hbWWUjAR5ZWFylIwKaXNfZGVmYXVsdJSIjAtleHByZXNzaW9uc5RdlIwlYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5leHByZXNzaW9uc5SMDUFsbEV4cHJlc3Npb26Uk5QpgZR9lIwEc3RlcJROc2JhdWJoIowKTW9udGhGaWVsZJSTlCmBlH2UKGgnjAVtb250aJRoKYhoKl2UaC4pgZR9lGgxTnNiYXViaCKMD0RheU9mTW9udGhGaWVsZJSTlCmBlH2UKGgnjANkYXmUaCmIaCpdlGguKYGUfZRoMU5zYmF1YmgijAlXZWVrRmllbGSUk5QpgZR9lChoJ4wEd2Vla5RoKYhoKl2UaC4pgZR9lGgxTnNiYXViaCKMDkRheU9mV2Vla0ZpZWxklJOUKYGUfZQoaCeMC2RheV9vZl93ZWVrlGgpiWgqXZRoLIwWV2Vla2RheVJhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgxTowFZmlyc3SUSwCMBGxhc3SUSwB1YmF1YmgkKYGUfZQoaCeMBGhvdXKUaCmJaCpdlGgsjA9SYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoMU5oVEsAaFVLAHViYXViaCQpgZR9lChoJ4wGbWludXRllGgpiWgqXZRoWymBlH2UKGgxTmhUSwBoVUsAdWJhdWJoJCmBlH2UKGgnjAZzZWNvbmSUaCmIaCpdlGhbKYGUfZQoaDFOaFRLAGhVSwB1YmF1YmWMBmppdHRlcpROdWKMCGV4ZWN1dG9ylIwHZGVmYXVsdJSMBGFyZ3OUKYwGa3dhcmdzlH2UaCdoA4wSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+cDFAAAAAAAAJRoHYaUUpR1Lg=="
+  }
+},
+{
+  "model": "django_apscheduler.djangojob",
+  "pk": "my_job",
+  "fields": {
+    "next_run_time": "2023-03-19T21:00:00Z",
+    "job_state": "gAWVZQQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwGbXlfam9ilIwEZnVuY5SMLm5ld3MubWFuYWdlbWVudC5jb21tYW5kcy5ydW5hcHNjaGVkdWxlcjpteV9qb2KUjAd0cmlnZ2VylIwZYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3JvbpSMC0Nyb25UcmlnZ2VylJOUKYGUfZQoaAFLAowIdGltZXpvbmWUjBtweXR6X2RlcHJlY2F0aW9uX3NoaW0uX2ltcGyUjAl3cmFwX3pvbmWUk5SMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwIem9uZWluZm+UjAhab25lSW5mb5STlIwJX3VucGlja2xllIaUUpSMDUV1cm9wZS9Nb3Njb3eUSwGGlFKUaBmGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaCKMCk1vbnRoRmllbGSUk5QpgZR9lChoJ4wFbW9udGiUaCmIaCpdlGguKYGUfZRoMU5zYmF1YmgijA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoJ4wDZGF5lGgpiGgqXZRoLimBlH2UaDFOc2JhdWJoIowJV2Vla0ZpZWxklJOUKYGUfZQoaCeMBHdlZWuUaCmIaCpdlGguKYGUfZRoMU5zYmF1YmgijA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgnjAtkYXlfb2Zfd2Vla5RoKYloKl2UaCyMFldlZWtkYXlSYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoMU6MBWZpcnN0lEsAjARsYXN0lEsAdWJhdWJoJCmBlH2UKGgnjARob3VylGgpiWgqXZRoLIwPUmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaDFOaFRLAGhVSwB1YmF1YmgkKYGUfZQoaCeMBm1pbnV0ZZRoKYloKl2UaFspgZR9lChoMU5oVEsAaFVLAHViYXViaCQpgZR9lChoJ4wGc2Vjb25klGgpiGgqXZRoWymBlH2UKGgxTmhUSwBoVUsAdWJhdWJljAZqaXR0ZXKUTnVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlCmMBmt3YXJnc5R9lGgnaAOMEm1pc2ZpcmVfZ3JhY2VfdGltZZRLAYwIY29hbGVzY2WUiIwNbWF4X2luc3RhbmNlc5RLAYwNbmV4dF9ydW5fdGltZZSMCGRhdGV0aW1llIwIZGF0ZXRpbWWUk5RDCgfnAxQAAAAAAACUaB2GlFKUdS4="
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 1,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:14:00Z",
+    "duration": "0.09",
+    "finished": "1678619640.09",
+    "exception": "unbound method datetime.date() needs an argument",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 19, in my_job\n    time_now = datetime.date().today()\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 2,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:14:10Z",
+    "duration": "0.10",
+    "finished": "1678619650.10",
+    "exception": "unbound method datetime.date() needs an argument",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 19, in my_job\n    time_now = datetime.date().today()\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 3,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:14:20Z",
+    "duration": "0.07",
+    "finished": "1678619660.07",
+    "exception": "unbound method datetime.date() needs an argument",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 19, in my_job\n    time_now = datetime.date().today()\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 4,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:14:30Z",
+    "duration": "0.08",
+    "finished": "1678619670.08",
+    "exception": "unbound method datetime.date() needs an argument",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 19, in my_job\n    time_now = datetime.date().today()\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 5,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:14:40Z",
+    "duration": "0.06",
+    "finished": "1678619680.06",
+    "exception": "unbound method datetime.date() needs an argument",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 19, in my_job\n    time_now = datetime.date().today()\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 6,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:15:20Z",
+    "duration": "0.01",
+    "finished": "1678619720.01",
+    "exception": "name 'timedelta' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    time_week_before = time_now + timedelta(days=-7)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 7,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:15:30Z",
+    "duration": "0.07",
+    "finished": "1678619730.07",
+    "exception": "name 'timedelta' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    time_week_before = time_now + timedelta(days=-7)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 8,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:21:10Z",
+    "duration": "0.03",
+    "finished": "1678620070.03",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date>=time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 9,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:21:20Z",
+    "duration": "0.11",
+    "finished": "1678620080.11",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date>=time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 10,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:39:30Z",
+    "duration": "0.05",
+    "finished": "1678621170.05",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 11,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:39:40Z",
+    "duration": "0.13",
+    "finished": "1678621180.13",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 12,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:50:00Z",
+    "duration": "0.05",
+    "finished": "1678621800.05",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 13,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:50:10Z",
+    "duration": "0.25",
+    "finished": "1678621810.25",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 14,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:50:30Z",
+    "duration": "0.04",
+    "finished": "1678621830.04",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 15,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:50:40Z",
+    "duration": "0.14",
+    "finished": "1678621840.14",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 16,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:50:50Z",
+    "duration": "0.10",
+    "finished": "1678621850.10",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 17,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:51:00Z",
+    "duration": "0.11",
+    "finished": "1678621860.11",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 18,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T11:51:10Z",
+    "duration": "0.10",
+    "finished": "1678621870.10",
+    "exception": "name 'Post' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 19,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:03:00Z",
+    "duration": "0.04",
+    "finished": "1678622580.04",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 20,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:03:10Z",
+    "duration": "0.17",
+    "finished": "1678622590.17",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 21,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:29:30Z",
+    "duration": "0.03",
+    "finished": "1678624170.03",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 22,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:29:40Z",
+    "duration": "0.14",
+    "finished": "1678624180.14",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 23,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:29:50Z",
+    "duration": "0.17",
+    "finished": "1678624190.17",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 24,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:30:00Z",
+    "duration": "0.10",
+    "finished": "1678624200.10",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 25,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:30:10Z",
+    "duration": "0.09",
+    "finished": "1678624210.09",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 26,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:30:20Z",
+    "duration": "0.10",
+    "finished": "1678624220.10",
+    "exception": "name 'postDatetime__date' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 20, in my_job\n    posts_in_week = Post.objects.filter(postDatetime__date >= time_week_before)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 27,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:34:00Z",
+    "duration": "0.20",
+    "finished": "1678624440.20",
+    "exception": "name 'render_to_string' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 27, in my_job\n    mail_weekly_html = render_to_string(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 28,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:34:10Z",
+    "duration": "0.15",
+    "finished": "1678624450.15",
+    "exception": "name 'render_to_string' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 27, in my_job\n    mail_weekly_html = render_to_string(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 29,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:35:30Z",
+    "duration": "0.20",
+    "finished": "1678624530.20",
+    "exception": "name 'EmailMultiAlternatives' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    msg = EmailMultiAlternatives(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 30,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:35:40Z",
+    "duration": "0.14",
+    "finished": "1678624540.14",
+    "exception": "name 'EmailMultiAlternatives' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    msg = EmailMultiAlternatives(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 31,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:35:50Z",
+    "duration": "0.08",
+    "finished": "1678624550.08",
+    "exception": "name 'EmailMultiAlternatives' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    msg = EmailMultiAlternatives(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 32,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2023-03-12T12:36:00Z",
+    "duration": "0.45",
+    "finished": "1678624560.45",
+    "exception": "name 'EmailMultiAlternatives' is not defined",
+    "traceback": "  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\PWS_practice\\D2\\NewsPaper_Django\\NewsPaper\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    msg = EmailMultiAlternatives(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 33,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:36:20Z",
+    "duration": "0.13",
+    "finished": "1678624580.13",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 34,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:36:30Z",
+    "duration": "0.10",
+    "finished": "1678624590.10",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 35,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:36:40Z",
+    "duration": "0.11",
+    "finished": "1678624600.11",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 36,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:52:40Z",
+    "duration": "1.36",
+    "finished": "1678625561.36",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 37,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:52:50Z",
+    "duration": "1.38",
+    "finished": "1678625571.38",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 38,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:53:00Z",
+    "duration": "2.09",
+    "finished": "1678625582.09",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 39,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:53:10Z",
+    "duration": "1.72",
+    "finished": "1678625591.72",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 40,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T12:53:20Z",
+    "duration": "2.30",
+    "finished": "1678625602.30",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 41,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2023-03-12T13:03:40Z",
+    "duration": "1.41",
+    "finished": "1678626221.41",
+    "exception": null,
+    "traceback": null
+  }
+}
+]

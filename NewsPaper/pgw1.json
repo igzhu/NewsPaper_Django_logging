@@ -1,0 +1,913 @@
+[
+{
+  "model": "news.post",
+  "pk": 4,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-19T10:32:36.418Z",
+    "head": "last article",
+    "postText": "this is last article.",
+    "postRate": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 5,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-19T12:13:44.260Z",
+    "head": "with banned word",
+    "postText": "post with word fuck and пиздец.",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 6,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:25:41.481Z",
+    "head": "2 new",
+    "postText": "2 new new",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 10,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:27:15.174Z",
+    "head": "6_news",
+    "postText": "6_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 11,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:27:31.381Z",
+    "head": "7_news",
+    "postText": "7_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 12,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:27:54.393Z",
+    "head": "8_artc",
+    "postText": "8_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 13,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:28:10.029Z",
+    "head": "9_news",
+    "postText": "9_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 14,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:28:32.089Z",
+    "head": "10_artck",
+    "postText": "10_artc_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 15,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:28:49.369Z",
+    "head": "11_artck",
+    "postText": "11_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 16,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:29:15.102Z",
+    "head": "12_artcl",
+    "postText": "12_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 17,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:29:34.072Z",
+    "head": "13_artcl",
+    "postText": "13_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 18,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:29:49.035Z",
+    "head": "14_news",
+    "postText": "14_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 19,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:30:06.016Z",
+    "head": "15_news",
+    "postText": "14_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 20,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:30:28.252Z",
+    "head": "16_artcl",
+    "postText": "16_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 21,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:30:47.002Z",
+    "head": "17_artcl",
+    "postText": "17_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 22,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:31:02.829Z",
+    "head": "18_news",
+    "postText": "18_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 23,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:31:17.117Z",
+    "head": "19_news",
+    "postText": "19_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 24,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:31:41.759Z",
+    "head": "20_artc",
+    "postText": "20_artc_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 25,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:32:00.607Z",
+    "head": "21_artc",
+    "postText": "21_artc_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 26,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:32:15.281Z",
+    "head": "22_news",
+    "postText": "22_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 27,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-02-26T09:32:32.493Z",
+    "head": "23_artcl",
+    "postText": "23_artcl_artcl",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 28,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:32:46.868Z",
+    "head": "204_news",
+    "postText": "204_news_newsereweewewqewqeqw",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 29,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-02-26T09:33:26.785Z",
+    "head": "25_news",
+    "postText": "25_news_news",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 32,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-01T11:25:30.726Z",
+    "head": "333",
+    "postText": "33333333333",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 35,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-01T11:26:39.216Z",
+    "head": "66",
+    "postText": "66666666666666666666666666666666666666666666666",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 36,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-01T11:36:40.911Z",
+    "head": "77",
+    "postText": "77777777",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 41,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-01T12:39:24.624Z",
+    "head": "13",
+    "postText": "1233333",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 43,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-01T14:35:56.112Z",
+    "head": "15",
+    "postText": "1555555\r\nassdsdsada",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 46,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-01T20:11:13.998Z",
+    "head": "1mar",
+    "postText": "1marrrrrr",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 50,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-03T10:47:57.961Z",
+    "head": "3war",
+    "postText": "444333",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 52,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-03T10:53:38.643Z",
+    "head": "wer11",
+    "postText": "qwwqw2e32432q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 61,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-04T15:02:04.465Z",
+    "head": "yyttt",
+    "postText": "hfththf123456",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 64,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:14:01.803Z",
+    "head": "22",
+    "postText": "222",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 65,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:17:23.754Z",
+    "head": "1",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 66,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:19:56.103Z",
+    "head": "2",
+    "postText": "22",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 68,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:37:23.764Z",
+    "head": "4",
+    "postText": "44",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 69,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-08T12:39:27.789Z",
+    "head": "5",
+    "postText": "555",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 70,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:41:02.792Z",
+    "head": "6",
+    "postText": "66",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 71,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:43:57.934Z",
+    "head": "7",
+    "postText": "77",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 72,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:45:47.461Z",
+    "head": "8",
+    "postText": "88",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 75,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:56:31.174Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 76,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T12:58:08.511Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 77,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:05:18.573Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 78,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:09:06.241Z",
+    "head": "11",
+    "postText": "111",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 79,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-08T13:09:21.544Z",
+    "head": "12",
+    "postText": "1212",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 80,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:10:35.046Z",
+    "head": "13",
+    "postText": "123",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 81,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:21:21.174Z",
+    "head": "14",
+    "postText": "131314",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 82,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:25:45.106Z",
+    "head": "15",
+    "postText": "1515",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 84,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:45:51.322Z",
+    "head": "17",
+    "postText": "1717",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 85,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-08T13:47:35.989Z",
+    "head": "18",
+    "postText": "1818",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 86,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-08T13:51:08.767Z",
+    "head": "19",
+    "postText": "19",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 87,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-09T14:19:37.474Z",
+    "head": "9ma",
+    "postText": "9mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 88,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-09T14:21:03.118Z",
+    "head": "9ma",
+    "postText": "9mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 89,
+  "fields": {
+    "postAuthor": 1,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-09T14:22:21.242Z",
+    "head": "9ma",
+    "postText": "9mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 90,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T06:26:02.695Z",
+    "head": "10mar",
+    "postText": "10mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 91,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T06:34:04.483Z",
+    "head": "10mar",
+    "postText": "10mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 92,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T06:34:28.786Z",
+    "head": "1100m",
+    "postText": "1100m",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 93,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T07:13:19.033Z",
+    "head": "1q",
+    "postText": "1q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 94,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T07:15:13.718Z",
+    "head": "1q",
+    "postText": "1q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 95,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T07:16:35.921Z",
+    "head": "1q",
+    "postText": "1q",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 96,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:54:48.916Z",
+    "head": "rreee",
+    "postText": "eerte",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 97,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:56:21.745Z",
+    "head": "eee",
+    "postText": "eeee",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 98,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:57:03.327Z",
+    "head": "ttrr",
+    "postText": "weerrwe",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 100,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T10:57:35.739Z",
+    "head": "1133123",
+    "postText": "13132312312",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 102,
+  "fields": {
+    "postAuthor": 3,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T11:10:19.120Z",
+    "head": "rrr",
+    "postText": "rrrrr",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 105,
+  "fields": {
+    "postAuthor": 5,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T11:23:05.103Z",
+    "head": "cc",
+    "postText": "cccc",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 109,
+  "fields": {
+    "postAuthor": 6,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T11:56:04.481Z",
+    "head": "444",
+    "postText": "444444",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 111,
+  "fields": {
+    "postAuthor": 4,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T11:56:50.720Z",
+    "head": "32",
+    "postText": "3321",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 112,
+  "fields": {
+    "postAuthor": 2,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T11:57:24.059Z",
+    "head": "423434235345",
+    "postText": "343432434324",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 113,
+  "fields": {
+    "postAuthor": 6,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T12:35:02.500Z",
+    "head": "au",
+    "postText": "eeerreauuu",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 115,
+  "fields": {
+    "postAuthor": 7,
+    "postType": "NEWS",
+    "postDatetime": "2023-03-10T12:36:59.810Z",
+    "head": "csx",
+    "postText": "csx",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 116,
+  "fields": {
+    "postAuthor": 7,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T12:37:15.903Z",
+    "head": "cvx",
+    "postText": "cvx",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 117,
+  "fields": {
+    "postAuthor": 8,
+    "postType": "ARTC",
+    "postDatetime": "2023-03-10T14:07:20.461Z",
+    "head": "fin10mar",
+    "postText": "fin10marfin10marfin10mar",
+    "postRate": 0
+  }
+},
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "name": "devel"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "name": "sales"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "name": "prod"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 4,
+  "fields": {
+    "name": "hr"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 5,
+  "fields": {
+    "name": "legal"
+  }
+}
+]
