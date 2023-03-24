@@ -185,3 +185,115 @@ CACHES = {
 
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+    ## Logging section:
+
+LOG_DIR = os.path.join(BASE_DIR, 'log', '')  # log directory is 'BASE_DiR/NewsPaper_Django/NewsPaper/log/'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'debug_fmt': {
+            'format': '%(asctime)s %(levelname)s %(message)s'         # different kinds of format styling
+        },
+        'warning_mail_fmt': {
+            'format': '{asctime} {levelname} {message} {pathname}',   # different kinds of format styling
+                       'style': '{',
+        },
+        'error_fmt': {
+            'format': '%(asctime)s %(levelname)s %(message)s %(pathname)s %(exc_info)s'
+        },
+        'info_sec_fmt': {
+            'format': '{asctime} {levelname} {module} {message}',
+                        'style': '{',
+        },
+        'mail_fmt': {
+            'format': '%(asctime)s %(levelname)s %(message)s %(pathname)s'
+        },
+    },
+    'filters': {
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse',
+        },
+    },
+    'handlers': {
+        'console_debug': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_true', ],
+            'class': 'logging.StreamHandler',
+            'formatter': 'debug_fmt',
+        },
+        'console_warning': {
+            'level': 'WARNING',
+            'filters': ['require_debug_true', ],
+            'class': 'logging.StreamHandler',
+            'formatter': 'warning_mail_fmt',
+        },
+        'console_error': {
+            'level': 'ERROR',
+            'filters': ['require_debug_true', ],
+            'class': 'logging.StreamHandler',
+            'formatter': 'error_fmt',
+        },
+        'file_general': {
+            'level': 'INFO',
+            'filters': ['require_debug_false', ],
+            'class': 'logging.FileHandler',
+            'filename': f'{LOG_DIR}general.log',
+            'formatter': 'info_sec_fmt',
+        },
+        'file_errors': {
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': f'{LOG_DIR}errors.log',
+            'formatter': 'error_fmt',
+        },
+        'file_security': {
+            'class': 'logging.FileHandler',
+            'filename': f'{LOG_DIR}security.log',
+            'formatter': 'info_sec_fmt',
+        },
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false', ],
+            'class': 'django.utils.log.AdminEmailHandler',
+            'formatter': 'mail_fmt',
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console_debug', 'console_warning', 'console_error', 'file_general'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'django.request': {
+            'handlers': ['file_errors', 'mail_admins', ],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'django.server': {
+            'handlers': ['file_errors', 'mail_admins', ],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'django.template': {
+            'handlers': ['file_errors', ],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'django.django.db_backends': {
+            'handlers': ['file_errors', ],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'django.security': {
+           'handlers': ['file_security', ],
+           'propagate': False,
+        }
+    }
+}
+## end of Logging section
